@@ -17,6 +17,11 @@ b {
     margin:0;
 }
 
+.alert {
+    color:#ff0000;
+    font-weight:bold;
+}
+
 del {
     text-decoration: line-through;
 }
@@ -39,16 +44,43 @@ header left {
     white-space:nowrap;
     font-weight:bold;
     padding:1px;
+}
+
+header left {
     font-size:1.2em;
     text-align:left;
     width:50%;
+    padding:5px;
     margin:5px 50px 5px 5px;
+}
+
+header left h1 {
+    font-size:3.6em;
+    padding:5px 0 0 0;
+    margin:5px 5px 0 0px;
 }
 
 header right {
     text-align:right;
     width:50%;
     padding:5px 50px 5px 5px;
+}
+
+header right h1 {
+    color:#651413;
+    font-size:3.6em;
+    padding:5px 0 0 0;
+    margin:5px 5px 0 0px;
+}
+
+header right h1 a:hover {
+    text-decoration:none;
+}
+
+header right p {
+    font-size:1.4em;
+    padding:5px;
+    margin:5px 5px 0 5px;
 }
 
 container {
@@ -147,10 +179,37 @@ navcontainer {
     font-size:1.25em;
 }
 
+navcontainer left {
+    float:left;
+    padding:0;
+    margin:0;
+    width:45%;
+}
+
+navcontainer right {
+    padding:0;
+    margin:0;
+    float:right;
+    width:45%;
+}
+
+navcontainer center {
+    float:left;
+    width:100%;
+}
+
+navcontainer img {
+    border:0px;
+    display:block;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 contents {
     display:inline;
     width:800px;
-    float:right;
+    float:left;
     text-align:left;
     padding:5px;
     margin-left:2%;
@@ -247,4 +306,5 @@ img.left {
     margin-right:auto;
     width:30%;
 }
+
 
