@@ -21,6 +21,8 @@
 <right>
 </header>
 
+<container>
+
 <navcontainer>
 <!--#include file ="menu.inc" -->
 </navcontainer>
