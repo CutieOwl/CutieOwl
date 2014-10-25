@@ -8,8 +8,8 @@
     <title>The Nest
     </title>
 
-    <link rel="stylesheet" href="css/style.css" type="text/css" 
-    	rel="icon" rel="icon" href="images/OwlFavicon1.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" type="text/css" >
+    <link rel="icon" href="images/OwlFavicon1.png" type="image/x-icon">
 
     
     
