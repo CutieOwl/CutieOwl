@@ -18,10 +18,10 @@
 <right>
 </header>
 
-<div id="container">
-<div id="navcontainer">
+<container>
+<navcontainer>
 <!--#include file ="menu_l1.inc" -->
 
-</div>
-<div id="contents">
+</navcontainer>
+<contents>
 

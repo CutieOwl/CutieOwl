@@ -11,7 +11,6 @@
 
 <body>
 
-
 <header>
 <left>
 <p><br/>
@@ -22,10 +21,9 @@
 <right>
 </header>
 
-<div id="container">
-<div id="navcontainer">
+<navcontainer>
 <!--#include file ="menu.inc" -->
+</navcontainer>
 
-</div>
-<div id="contents">
+<contents>
 
