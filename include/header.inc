@@ -12,7 +12,7 @@
 <body>
 
 
-<div class="header">
+<header>
 <div class="left">
 <p><br/>
 <a href="./">CutieOwl</a><br/>
@@ -20,7 +20,7 @@
 </div>
 <div class="right">
 </div>
-</div>
+</header>
 
 <div id="container">
 <div id="navcontainer">
