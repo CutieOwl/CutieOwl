@@ -17,9 +17,9 @@
 </header>
 
 <div id="container">
-<div id="navcontainer">
+<nav>
 <!--#include file ="menu_l1.inc" -->
 
-</div
+</nav>
 <div id="contents">
 
