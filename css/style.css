@@ -126,15 +126,14 @@ container {
 }
 
 navcontainer {
-    width:19%; 
+    width:100px; 
     padding:0 10px 5px 0;
     font-size:1.25em;
 }
 
 contents {
     display:inline;
-    width:80%;
-    left:20%;
+    left:100px;
     text-align:left;
     padding:5px;
     margin-left:2%;
