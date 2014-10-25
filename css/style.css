@@ -255,15 +255,13 @@ contents td {
     margin:0;
 }
 
-X
-
-#contents h2 {
+contents h2 {
     color:#651413;
     border-bottom:1px solid #000000;
     margin:5px 0 5px 0;
 }
 
-#footer {
+footer {
     clear:both;
     padding-top:5px;
     padding-bottom:10px;
@@ -281,19 +279,6 @@ a {
 
 a:hover {
     text-decoration:underline;
-}
-
-#map {
-    width:80%;
-    height:300px;
-    padding:0px;
-    margin:5px;
-}
-
-.mapstyle {
-    padding:0px;
-    margin:0px;
-    font-size:0.8em;
 }
 
 img {
@@ -320,118 +305,6 @@ img.left {
     margin-left:auto;
     margin-right:auto;
     width:30%;
-}
-
-.hotel img {
-    border:0px;
-    display:inline;
-    margin-left:auto;
-    margin-right:auto;
-    width:45%;
-}
-
-.\60pc img {
-    border:0px;
-    display:inline;
-    margin-left:auto;
-    margin-right:auto;
-    width:50%;
-}
-
-.supporters h2 {
-    text-align:left;
-}
-
-.supporters {
-    margin-left:auto;
-    margin-right:auto;
-    text-align:center;
-}
-
-.supporters img {
-    border:0px;
-    display:inline;
-    vertical-align:top;
-    padding:15px;
-    margin-left:auto;
-    margin-right:auto;
-    text-align:center;
-}
-
-.supporters .platinum img {
-    width:200px;
-}
-
-.supporters .gold img {
-    width:150px;
-}
-
-.supporters .silver img {
-    width:120px;
-}
-
-.supporters .bronze img {
-    width:110px;
-}
-
-#currency table {
-    width:100%;
-    padding:1px;
-    border-spacing:0px;
-    border-width:1px;
-    border-style:solid;
-    text-align:left;
-    vertical-align:top;
-}
-
-#currency tr {
-    vertical-align:top;
-}
-
-#currency td.center {
-    text-align:center;
-}
-
-#currency td.header {
-    text-align:center;
-    background-color:#fff090;
-}
-
-#currency td.footer {
-    background-color:#f0f0f0;
-    text-align:center;
-    color:#808080;
-    font-size:80%;
-}
-
-#currency .small {
-    font-weight:bold;
-    font-size:80%;
-}
-
-#registration table {
-    width:100%;
-    margin:10px;
-    padding:1px;
-    border-spacing:0px;
-    border-width:1px;
-    border-style:solid;
-    text-align:left;
-    vertical-align:top;
-}
-
-#registration td {
-    border:1px solid black;
-}
-
-#registration td.header {
-    font-weight:bold;
-}
-
-#registration td.event{
-    padding:0;
-    font-weight:normal;
-    text-decoration:underline;
 }
 
 
