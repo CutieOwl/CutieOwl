@@ -126,8 +126,7 @@ container {
 }
 
 navcontainer {
-    width:19%; /* change for logo */
-    float:left;
+    width:19%; 
     padding:0 10px 5px 0;
     font-size:1.25em;
 }
@@ -135,7 +134,6 @@ navcontainer {
 contents {
     display:inline;
     width:80%;
-    float:left;
     text-align:left;
     padding:5px;
     margin-left:2%;
