@@ -16,7 +16,7 @@
 <div class="header">
 <div class="left">
 <p><br/>
-<a href="../">Jack</a><br/>
+<a href="../">CutieOwl</a><br/>
 </p>
 </div>
 <div class="right">
