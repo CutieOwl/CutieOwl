@@ -58,26 +58,17 @@ container {
     padding-top:1px;
 }
 
-.navlist ul {
+.navlist {
     margin:0;
     padding:0;
     list-style-type:none;
-}
-
-.navlist li {
-    padding:0;
-    margin:0;
-    font-variant: small-caps;
-}
-
-.navlist a {
-    display:block;
-    padding:5px 10px;
-    width:140px;
+    color:#ffffff;
+    background-color:#651413;
+    text-decoration:none;
 }
 
 .navlist a:link, .navlist a:visited {
-   color:#ffffff;
+    color:#ffffff;
     background-color:#651413;
     text-decoration:none;
 }
@@ -86,13 +77,7 @@ container {
     background-color: #e42e2a;
     text-decoration: none;
 }
-        
-.navlist ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-        
+                
 .subnavlist li {
     margin:0;
 }

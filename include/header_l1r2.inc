@@ -11,7 +11,7 @@
 <header>
 <left>
 <p><br/>
-<a href="./">CutieOwl</a><br/>
+<a href="../">CutieOwl</a><br/>
 </p>
 </left>
 </header>
