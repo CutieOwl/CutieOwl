@@ -83,7 +83,7 @@ header right p {
     margin:5px 5px 0 5px;
 }
 
-#container {
+container {
     width:100%;
     height:inherit;
     margin-top:1px;
@@ -172,33 +172,33 @@ header right p {
     text-decoration: none;
 }
 
-#navcontainer {
+navcontainer {
     width:160px; /* change for logo */
     float:left;
     padding:0 10px 5px 0;
     font-size:1.25em;
 }
 
-#navcontainer .left {
+navcontainer left {
     float:left;
     padding:0;
     margin:0;
     width:45%;
 }
 
-#navcontainer .right {
+navcontainer right {
     padding:0;
     margin:0;
     float:right;
     width:45%;
 }
 
-#navcontainer .center {
+navcontainer center {
     float:left;
     width:100%;
 }
 
-#navcontainer img {
+navcontainer img {
     border:0px;
     display:block;
     margin-top:10px;
@@ -206,7 +206,7 @@ header right p {
     margin-right:auto;
 }
 
-#contents {
+contents {
     display:inline;
     width:800px;
     float:left;
@@ -217,115 +217,45 @@ header right p {
     font-size:1.2em;
 }
 
-#contents b {
+contents b {
     font-size:1.1em;
 }
 
-#contents ul {
+contents ul {
     margin-left:0;
     padding:0 0 0.75em 1.5em;
 }
 
-#contents ol {
+contents ol {
     margin-left:0;
     padding:0 0 0.75em 2em;
 }
 
-#contents li {
+contents li {
     padding:0;
 }
 
-#contents p {
+contents p {
     padding:0 0 0.75em 0;
 }
 
-#contents table {
+contents table {
     width:100%;
     border-collapse: collapse;
 }
 
-#contents th {
+contents th {
     text-align:left;
     padding:0;
     margin:0;
 }
 
-#contents td {
+contents td {
     padding:0;
     margin:0;
 }
 
-#contents th.committee {
-    text-align:left;
-    margin:0;
-    padding:0;
-    width:35%;
-}
-
-#contents td.name {
-    margin:0;
-    padding:0;
-    width:25%;
-}
-
-#contents td.time {
-    text-align:left;
-    margin:0;
-    border-bottom: 1px solid #000000;
-    padding-top: 10px;
-    width:20%;
-}
-
-#contents td.day{
-    text-align:left;
-    font-style:italic;
-    font-weight:bold;
-    font-size:1.2em;
-    margin:0;
-    margin-top:10px;
-    padding-top: 20px;
-    width:20%;
-}
-
-
-#contents td.event {
-    text-align:left;
-    margin:0;
-    border-bottom:1px solid #000000;
-    padding-top: 10px;
-    font-weight:bold;
-}
-
-#contents td.session {
-    text-align:left;
-    margin:0;
-    border-bottom:1px solid #000000;
-    padding-top: 10px;
-}
-
-td.session span.title {
-    color:#651413;
-    font-weight:bold;
-}
-
-td.session span.chair {
-    font-style:italic;
-}
-
-#contents td.paper {
-    text-align:left;
-    margin:0;
-    padding:0;
-    font-weight:bolder;
-}
-
-#contents td.author {
-    text-align:left;
-    margin:0;
-    padding:0;
-    padding-left:2ex;
-    font-style:italic;
-}
+X
 
 #contents h2 {
     color:#651413;
