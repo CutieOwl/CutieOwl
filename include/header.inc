@@ -13,13 +13,13 @@
 
 
 <header>
-<div class="left">
+<left>
 <p><br/>
 <a href="./">CutieOwl</a><br/>
 </p>
-</div>
-<div class="right">
-</div>
+</left>
+<right>
+<right>
 </header>
 
 <div id="container">
