@@ -14,8 +14,6 @@
 <a href="./">CutieOwl</a><br/>
 </p>
 </left>
-<right>
-<right>
 </header>
 
 <container>

@@ -17,11 +17,9 @@
 <a href="./">CutieOwl</a><br/>
 </p>
 </left>
-<right>
-<right>
 </header>
 
-<container>
+<div id="container">
 
 <navcontainer>
 <!--#include file ="menu.inc" -->
