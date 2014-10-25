@@ -134,6 +134,7 @@ navcontainer {
 contents {
     display:inline;
     width:80%;
+    left:20%;
     text-align:left;
     padding:5px;
     margin-left:2%;
