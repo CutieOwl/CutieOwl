@@ -1,7 +1,7 @@
     </title>
 
-    <link rel="stylesheet" href="css/style.css" type="text/css" >
-    <link rel="icon" href="images/OwlFavicon1.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css" type="text/css" >
+    <link rel="icon" href="../images/OwlFavicon1.png" type="image/x-icon">
 
     <!-- <link rel="shortcut icon" href="../images/seattle_skyline.jpg" /> -->
    	<style type="text/css">
