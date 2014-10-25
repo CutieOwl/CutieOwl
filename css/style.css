@@ -1,0 +1,509 @@
+﻿* {
+    padding:0px;
+    margin:0px;
+    text-indent:0;
+}
+
+body {
+    font-family: "Gill Sans", Arial, Helvetica, Verdana, "Bitstream Vera Sans", sans-serif;
+    font-size:80%;
+    font-size-adjust: 0.46;
+    background:#ffffff;
+    color:#000000;
+}
+
+b {
+    padding:0;
+    margin:0;
+}
+
+.alert {
+    color:#ff0000;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+div.header {
+    text-align:right;
+    margin:0;
+    margin-top:-10px;
+    border-bottom:0px;
+    display:table;
+    width:1500px;
+    height:200px;
+    background-color: #ffffff;
+    background-image: url("../images/seattle_skyline.jpg");
+    background-repeat: no-repeat;
+}
+
+div.header div {
+    display:table-cell;
+    white-space:nowrap;
+    font-weight:bold;
+    padding:1px;
+}
+
+div.header div.left {
+    /*display:inline;*/
+    /*float:none;*/
+    font-size:1.2em;
+    text-align:left;
+    width:50%;
+    padding:5px;
+    margin:5px 50px 5px 5px;
+}
+
+div.header div.left h1 {
+    font-size:3.6em;
+    padding:5px 0 0 0;
+    margin:5px 5px 0 0px;
+}
+
+div.header div.right {
+    text-align:right;
+    width:50%;
+    padding:5px 50px 5px 5px;
+}
+
+div.header div.right h1 {
+    color:#651413;
+    font-size:3.6em;
+    padding:5px 0 0 0;
+    margin:5px 5px 0 0px;
+}
+
+div.header div.right h1 a:hover {
+    text-decoration:none;
+}
+
+div.header div.right p {
+    font-size:1.4em;
+    padding:5px;
+    margin:5px 5px 0 5px;
+}
+
+#container {
+    width:100%;
+    height:inherit;
+    margin-top:1px;
+    padding-top:1px;
+}
+
+.navlist ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+.navlist li {
+    padding:0;
+    margin:0;
+    font-variant: small-caps;
+}
+
+.navlist a {
+    display:block;
+    padding:5px 10px;
+    width:140px;
+}
+
+.navlist a:link, .navlist a:visited {
+   color:#ffffff;
+    background-color:#651413;
+    text-decoration:none;
+}
+
+.navlist a:hover, .navlist a:active {
+    background-color: #e42e2a;
+    text-decoration: none;
+}
+        
+.navlist ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+        
+.subnavlist li {
+    margin:0;
+}
+        
+.subnavlist a {
+    display: block;
+    padding: 5px 5px 5px 30px;
+    width: 125px;
+}
+    
+.subnavlist a:link, .subnavlist a:visited {
+    background-color: #653231;
+    text-decoration: none;
+}
+    
+.subnavlist a:hover, .subnavlist a:active {
+    background-color: #e42e2a;
+    text-decoration: none;
+}
+
+.subnavlist ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.subsubnavlist li {
+    margin:0;
+    font-variant: normal;
+}
+        
+.subsubnavlist a {
+    display: block;
+    padding: 5px 5px 5px 55px;
+    width: 100px;
+}
+    
+.subsubnavlist a:link, .subsubnavlist a:visited {
+    background-color: #653231;
+    text-decoration: none;
+}
+    
+.subsubnavlist a:hover, .subsubnavlist a:active {
+    background-color: #e42e2a;
+    text-decoration: none;
+}
+
+#navcontainer {
+    width:160px; /* change for logo */
+    float:left;
+    padding:0 10px 5px 0;
+    font-size:1.25em;
+}
+
+#navcontainer .left {
+    float:left;
+    padding:0;
+    margin:0;
+    width:45%;
+}
+
+#navcontainer .right {
+    padding:0;
+    margin:0;
+    float:right;
+    width:45%;
+}
+
+#navcontainer .center {
+    float:left;
+    width:100%;
+}
+
+#navcontainer img {
+    border:0px;
+    display:block;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#contents {
+    display:inline;
+    width:800px;
+    float:left;
+    text-align:left;
+    padding:5px;
+    margin-left:2%;
+    margin-right:auto;
+    font-size:1.2em;
+}
+
+#contents b {
+    font-size:1.1em;
+}
+
+#contents ul {
+    margin-left:0;
+    padding:0 0 0.75em 1.5em;
+}
+
+#contents ol {
+    margin-left:0;
+    padding:0 0 0.75em 2em;
+}
+
+#contents li {
+    padding:0;
+}
+
+#contents p {
+    padding:0 0 0.75em 0;
+}
+
+#contents table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+#contents th {
+    text-align:left;
+    padding:0;
+    margin:0;
+}
+
+#contents td {
+    padding:0;
+    margin:0;
+}
+
+#contents th.committee {
+    text-align:left;
+    margin:0;
+    padding:0;
+    width:35%;
+}
+
+#contents td.name {
+    margin:0;
+    padding:0;
+    width:25%;
+}
+
+#contents td.time {
+    text-align:left;
+    margin:0;
+    border-bottom: 1px solid #000000;
+    padding-top: 10px;
+    width:20%;
+}
+
+#contents td.day{
+    text-align:left;
+    font-style:italic;
+    font-weight:bold;
+    font-size:1.2em;
+    margin:0;
+    margin-top:10px;
+    padding-top: 20px;
+    width:20%;
+}
+
+
+#contents td.event {
+    text-align:left;
+    margin:0;
+    border-bottom:1px solid #000000;
+    padding-top: 10px;
+    font-weight:bold;
+}
+
+#contents td.session {
+    text-align:left;
+    margin:0;
+    border-bottom:1px solid #000000;
+    padding-top: 10px;
+}
+
+td.session span.title {
+    color:#651413;
+    font-weight:bold;
+}
+
+td.session span.chair {
+    font-style:italic;
+}
+
+#contents td.paper {
+    text-align:left;
+    margin:0;
+    padding:0;
+    font-weight:bolder;
+}
+
+#contents td.author {
+    text-align:left;
+    margin:0;
+    padding:0;
+    padding-left:2ex;
+    font-style:italic;
+}
+
+#contents h2 {
+    color:#651413;
+    border-bottom:1px solid #000000;
+    margin:5px 0 5px 0;
+}
+
+#footer {
+    clear:both;
+    padding-top:5px;
+    padding-bottom:10px;
+    text-align:center;
+    font-size:0.9em;
+    border-top:2px dotted #651413;
+}
+
+
+a {
+    text-decoration:none;
+    color:#651413;
+    padding:0px;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+#map {
+    width:80%;
+    height:300px;
+    padding:0px;
+    margin:5px;
+}
+
+.mapstyle {
+    padding:0px;
+    margin:0px;
+    font-size:0.8em;
+}
+
+img {
+    border:0px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+img.right {
+  float : right;
+  margin : 0 0 5px 10px;  /* Top, Right, Bottom, Left */
+}
+
+img.left {
+  float : left;
+  margin : 0 10px 5px 0;
+}
+
+
+.scene img {
+    border:0px;
+    display:inline;
+    margin-left:auto;
+    margin-right:auto;
+    width:30%;
+}
+
+.hotel img {
+    border:0px;
+    display:inline;
+    margin-left:auto;
+    margin-right:auto;
+    width:45%;
+}
+
+.\60pc img {
+    border:0px;
+    display:inline;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+.supporters h2 {
+    text-align:left;
+}
+
+.supporters {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.supporters img {
+    border:0px;
+    display:inline;
+    vertical-align:top;
+    padding:15px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.supporters .platinum img {
+    width:200px;
+}
+
+.supporters .gold img {
+    width:150px;
+}
+
+.supporters .silver img {
+    width:120px;
+}
+
+.supporters .bronze img {
+    width:110px;
+}
+
+#currency table {
+    width:100%;
+    padding:1px;
+    border-spacing:0px;
+    border-width:1px;
+    border-style:solid;
+    text-align:left;
+    vertical-align:top;
+}
+
+#currency tr {
+    vertical-align:top;
+}
+
+#currency td.center {
+    text-align:center;
+}
+
+#currency td.header {
+    text-align:center;
+    background-color:#fff090;
+}
+
+#currency td.footer {
+    background-color:#f0f0f0;
+    text-align:center;
+    color:#808080;
+    font-size:80%;
+}
+
+#currency .small {
+    font-weight:bold;
+    font-size:80%;
+}
+
+#registration table {
+    width:100%;
+    margin:10px;
+    padding:1px;
+    border-spacing:0px;
+    border-width:1px;
+    border-style:solid;
+    text-align:left;
+    vertical-align:top;
+}
+
+#registration td {
+    border:1px solid black;
+}
+
+#registration td.header {
+    font-weight:bold;
+}
+
+#registration td.event{
+    padding:0;
+    font-weight:normal;
+    text-decoration:underline;
+}
+
+
