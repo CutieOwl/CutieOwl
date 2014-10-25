@@ -100,11 +100,13 @@ container {
 }
     
 .subnavlist a:link, .subnavlist a:visited {
+	color:#ffffff;
     background-color: #653231;
     text-decoration: none;
 }
     
 .subnavlist a:hover, .subnavlist a:active {
+	color:#ffffff;
     background-color: #e42e2a;
     text-decoration: none;
 }
