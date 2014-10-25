@@ -16,10 +16,10 @@
 </left>
 </header>
 
-<container>
-<navcontainer>
+<div id="container">
+<div id="navcontainer">
 <!--#include file ="menu_l1.inc" -->
 
-</navcontainer>
-<contents>
+</div
+<div id="contents">
 

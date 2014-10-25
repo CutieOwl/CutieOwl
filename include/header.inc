@@ -21,9 +21,9 @@
 
 <div id="container">
 
-<navcontainer>
+<div id="navcontainer">
 <!--#include file ="menu.inc" -->
-</navcontainer>
+</div>
 
-<contents>
+<div id="contents">
 
