@@ -67,6 +67,17 @@ container {
     text-decoration:none;
 }
 
+.navlist li {
+    margin:0;
+}
+        
+.navlist a {
+    display: block;
+    padding: 0px 5px 5px 30px;
+    width: 130px;
+}
+
+
 .navlist a:link, .navlist a:visited {
     color:#ffffff;
     background-color:#651413;
@@ -104,26 +115,6 @@ container {
     list-style-type: none;
 }
 
-.subsubnavlist li {
-    margin:0;
-    font-variant: normal;
-}
-        
-.subsubnavlist a {
-    display: block;
-    padding: 5px 5px 5px 55px;
-    width: 100px;
-}
-    
-.subsubnavlist a:link, .subsubnavlist a:visited {
-    background-color: #653231;
-    text-decoration: none;
-}
-    
-.subsubnavlist a:hover, .subsubnavlist a:active {
-    background-color: #e42e2a;
-    text-decoration: none;
-}
 
 nav {
     width:100px; 
