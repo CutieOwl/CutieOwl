@@ -18,7 +18,7 @@ ul#menu li a {
     color: black;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 4px 4px;
 }
 
 ul#menu li a:hover {
@@ -41,7 +41,7 @@ ul#menu li a:hover {
 
 <div id="container">
 
-<nav>
+
 
 <ul id="menu">
 
@@ -50,7 +50,7 @@ ul#menu li a:hover {
 <li><a href="default.aspx">Fun</a></li>
 </ul>
 
-</nav>
+
 
 <div id="contents">
 
