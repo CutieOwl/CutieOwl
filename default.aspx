@@ -42,7 +42,7 @@ ul#menu li a:hover {
 <div id="container">
 
 
-
+<br>
 <ul id="menu">
 
 <li><a href="default.aspx">Home</a></li>
@@ -51,7 +51,6 @@ ul#menu li a:hover {
 </ul>
 
 
-<br>
 <br>
 <br>
 <div id="contents">
