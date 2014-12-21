@@ -5,7 +5,12 @@
 
     <link rel="stylesheet" href="css/style.css" type="text/css" >
     <link rel="icon" href="images/OwlFavicon1.png" type="image/x-icon">
-	
+	<style>
+ul#menu li {
+    display:inline;
+}
+</style>
+
 </head>
 
 <body>
@@ -22,7 +27,7 @@
 
 <nav>
 
-<ul class="navlist">
+<ul id="menu">
 
 <li><a href="default.aspx">Home</a></li>
 
