@@ -9,6 +9,18 @@
 ul#menu li {
     display:inline;
 }
+ul#menu li a {
+    background-color: pink;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    background-color: yellow;
+}
+
 </style>
 
 </head>
