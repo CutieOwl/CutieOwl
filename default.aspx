@@ -47,7 +47,7 @@ ul#menu li a:hover {
 
 <li><a href="default.aspx">Home</a></li>
 
-<li><a href="default.aspx">Fun</a>
+<li><a href="default.aspx">Fun</a></li>
 </ul>
 
 </nav>
