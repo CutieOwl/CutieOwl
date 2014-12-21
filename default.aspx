@@ -1,6 +1,46 @@
-﻿<!--#include file ="include/header.inc" -->
+﻿<!DOCTYPE html>
+<head>
+    <title>The Nest
+    </title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" >
+    <link rel="icon" href="images/OwlFavicon1.png" type="image/x-icon">
+	
+</head>
+
+<body>
+
+<header>
+<left>
+<p><br/>
+<a href="./">CutieOwl</a><br/>
+</p>
+</left>
+</header>
+
+<div id="container">
+
+<nav>
+<!--#include file ="menu.inc" -->
+</nav>
+
+<div id="contents">
+
 		<p>
 		<img class="left"
 		 src="images/little_cute_owl.jpg" width="300"> Welcome to The Nest (home)! There are so many things to do. Have fun with CutieOwl! </p>
-<!--#include file ="include/footer.inc" -->
+</div>
+</div>
+
+
+<footer>
+Last Modified: Oct. 21, 2014. Number of Unique Visitors: 
+<a href="http://www.easycounter.com/">
+<img src="http://www.easycounter.com/counter.php?jpl10"
+border="0" alt="Web Site Hit Counter"></a>
+</footer>
+</body>
+
+</html>
+
 
